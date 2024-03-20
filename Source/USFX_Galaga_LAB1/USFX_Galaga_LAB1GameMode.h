@@ -9,6 +9,12 @@ class ANaveEnemiga;
 class ANaveEnemigaTransporte;
 class ANaveEnemigaAcorazado;
 class ANaveEnemigaAcorazadoExploracion;
+class ANaveEnemigaEspia;
+class ANaveEnemigaEspiaCamuflaje;
+class ANaveEnemigaApoyo;	
+class ANaveEnemigaApoyoReparacion;	
+class ANaveEnemigaCaza;	
+class ANaveEnemigaCazaPesado;	
 
 
 UCLASS(MinimalAPI)

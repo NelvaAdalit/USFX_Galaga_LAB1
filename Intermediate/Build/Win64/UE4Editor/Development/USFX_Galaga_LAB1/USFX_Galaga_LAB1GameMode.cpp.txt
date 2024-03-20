@@ -21,3 +21,17 @@ C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projec
 C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaAcorazado.generated.h
 C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemigaAcorazadoExploracion.h
 C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaAcorazadoExploracion.generated.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemigaTransporteMuniciones.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaTransporteMuniciones.generated.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemigaEspia.h  
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaEspia.generated.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemigaEspiaCamuflaje.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaEspiaCamuflaje.generated.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemigaApoyo.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaApoyo.generated.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemigaApoyoReparacion.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaApoyoReparacion.generated.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemigaCaza.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaCaza.generated.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemigaCazaPesado.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaCazaPesado.generated.h

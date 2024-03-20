@@ -1,0 +1,7 @@
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Development\USFX_Galaga_LAB1\Definitions.USFX_Galaga_LAB1.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemigaApoyoReparacion.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemigaApoyo.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\NaveEnemiga.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemiga.generated.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaApoyo.generated.h
+C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Inc\USFX_Galaga_LAB1\NaveEnemigaApoyoReparacion.generated.h

@@ -25,9 +25,9 @@ void ANaveEnemigaTransporte::Mover(float DeltaTime)
 	float NuevaX = velocidad * DeltaTime + ubicacionActual.X;
 	FVector NuevaPosicion = FVector(NuevaX, ubicacionActual.Y, ubicacionActual.Z);
 	SetActorLocation(NuevaPosicion);
-	float NuvevaY= velocidad * DeltaTime + ubicacionActual.Y;
-	FVector NuevaPosicionY = FVector(ubicacionActual.X, NuvevaY, ubicacionActual.Z);
-	SetActorLocation(NuevaPosicionY);
+	//float NuvevaY= velocidad * DeltaTime + ubicacionActual.Y;
+	//FVector NuevaPosicionY = FVector(ubicacionActual.X, NuvevaY, ubicacionActual.Z);
+	//SetActorLocation(NuevaPosicionY);
 
 }
 

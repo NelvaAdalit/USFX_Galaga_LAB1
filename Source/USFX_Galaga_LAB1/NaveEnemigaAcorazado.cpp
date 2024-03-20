@@ -29,6 +29,10 @@ void ANaveEnemigaAcorazado::Mover(float DeltaTime)
     //float NuevaY = velocidad * DeltaTime + ubicacionActual.Y;
     FVector NuevaPosicion = FVector(NuevaX,ubicacionActual.Y, ubicacionActual.Z);
     SetActorLocation(NuevaPosicion);
+
+
+
+
    /* if (ubicacionActual.X>LimiteSuperior) {
         SetActorLocation(FVector(0.0f, ubicacionActual.Y, ubicacionActual.Z));
 
