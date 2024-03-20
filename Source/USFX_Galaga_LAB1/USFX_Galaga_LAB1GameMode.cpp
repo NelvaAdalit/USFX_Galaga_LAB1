@@ -25,10 +25,29 @@ void AUSFX_Galaga_LAB1GameMode::BeginPlay()
 	{
 		FVector ColocacionActual = ColocacionInicialNaves;
 		for (int i = 0; i < 7; i++) {
-			ColocacionActual = FVector(ColocacionActual.X+100.0f, ColocacionActual.Y +200.0f + i, ColocacionActual.Z+2.0f);
+			ColocacionActual = FVector(ColocacionActual.X+250, ColocacionActual.Y + i, ColocacionActual.Z);
 			ANaveEnemigaTransporte* NaveEnemigaTransporteActual = World->SpawnActor<ANaveEnemigaTransporte>(ColocacionActual, rotacionNave);
-			TANaveEnemigaTransporte.Add(NaveEnemigaTransporteActual);
+			TANavesEnemigas.Add(NaveEnemigaTransporteActual);
+
+			//TMapCambiarname.Add(NaveEnemigaTransporteActual->GetNombre(), NaveEnemigaTransporteActual);
+			//TMapCambiarname["Nave de Transporte"]->GetCapacidadCargaPeso();asi se accede a un elemento de un TMap;
+			//Use el TMap para difeenciar unas naves de otras  de cada nave;
+
+			FString nombre = NaveEnemigaTransporteActual->GetNombre();
+			FString nombreNave=FString::Printf(TEXT("%s %d"),*nombre,i);
+			//Mensaje en pantalla
+			if (GEngine)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, nombreNave);
+			} 
+
+			TMapCambiarVelocidad.Add(nombreNave, NaveEnemigaTransporteActual);
+			TMapCambiarVelocidad[nombreNave]->GetVelocidad();
+			TMapCambiarVelocidad[nombreNave]->SetVelocidad(0);
 			
+			
+
+
 
 		}
 
@@ -38,12 +57,17 @@ void AUSFX_Galaga_LAB1GameMode::BeginPlay()
 
 		for (int i = 0; i< 7; i++) {
 
-			ColocacionActual = FVector(ColocacionActual.X + 200.0f, ColocacionActual.Y -200.0f + i, ColocacionActual.Z + 3.0f);
+			ColocacionActual = FVector(ColocacionActual.X, ColocacionActual.Y+i+250, ColocacionActual.Z );
 			ANaveEnemigaAcorazado* NaveEnemigaAcorazadoActual = World->SpawnActor<ANaveEnemigaAcorazado>(ColocacionActual, rotacionNave);
-			TANaveEnemigaAcorazado.Add(NaveEnemigaAcorazadoActual);
+			TANavesEnemigas.Add(NaveEnemigaAcorazadoActual);
 		
-		
-		
+			FString nombreRed = NaveEnemigaAcorazadoActual->GetNombre();
+			FString nombreNaves = FString::Printf(TEXT("%s %d"), *nombreRed, i);
+			//Mensaje en pantalla
+			if (GEngine)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, nombreNaves);
+			}
 		
 		
 		}

@@ -26,6 +26,16 @@ protected:
 	float tiempoReaparicion;
 	FString nombre;
 	FVector posicion;
+
+	FVector ubicacionActual;
+	float Limiteinferior=-1680;
+	float LimiteSuperior=1550;
+	float LimiteIzquierdo= -1270.0;
+	float LimiteDerecho=1520;
+
+
+
+
 public: 
 	FORCEINLINE float GetVelocidad() const { return velocidad; }
 	FORCEINLINE float GetVelocidadDisparo() const { return velocidadDisparo; }

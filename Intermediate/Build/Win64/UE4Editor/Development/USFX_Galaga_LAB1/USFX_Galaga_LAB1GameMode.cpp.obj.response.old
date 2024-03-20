@@ -262,8 +262,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
+/FI"C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\USFX_Galaga_LAB1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\USFX_Galaga_LAB1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\USFX_Galaga_LAB1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
 "C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Source\USFX_Galaga_LAB1\USFX_Galaga_LAB1GameMode.cpp"
-/FI"C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Development\USFX_Galaga_LAB1\Definitions.h"
+/FI"C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Development\USFX_Galaga_LAB1\Definitions.USFX_Galaga_LAB1.h"
 /Fo"C:\Users\CAPITAL COMPUTERS\OneDrive\DAtos Word\OneDrive\Documentos\Unreal Projects\USFX_GALAGA_LAB1\Intermediate\Build\Win64\UE4Editor\Development\USFX_Galaga_LAB1\USFX_Galaga_LAB1GameMode.cpp.obj"
 /TP
 /GR-

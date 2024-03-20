@@ -29,9 +29,12 @@ protected:
 
 public:
 	TArray<ANaveEnemiga*> TANavesEnemigas;
-	TArray<ANaveEnemigaTransporte*> TANaveEnemigaTransporte;
-	TArray<ANaveEnemigaAcorazado*> TANaveEnemigaAcorazado;
-	TArray<ANaveEnemigaAcorazadoExploracion*>TANaveEnemigaAcorazadoExploracion;
+	//TMap<FString, ANaveEnemigaTransporte*>TMapCambiarname;
+	TMap<FString, ANaveEnemiga*>TMapCambiarVelocidad;
+
+
+	//un TMap nos sirve para diferenciar diferentes tipos de naves;
+
 private:
 	int TiempoTranscurrido;
 

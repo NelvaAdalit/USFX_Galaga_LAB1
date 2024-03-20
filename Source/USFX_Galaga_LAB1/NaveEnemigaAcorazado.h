@@ -32,8 +32,7 @@ public:
 	FORCEINLINE void SetEscudos(int _escudos) { escudos = _escudos; }
 	FORCEINLINE void SetArmamento(int _armamento) { armamento = _armamento; }
 	virtual void Tick(float DeltaTime) override;
-public:
-	void VolverRecorrido();
+
 
 protected:
 

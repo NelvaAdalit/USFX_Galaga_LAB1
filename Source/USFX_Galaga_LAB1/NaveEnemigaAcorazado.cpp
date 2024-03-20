@@ -9,21 +9,38 @@ ANaveEnemigaAcorazado::ANaveEnemigaAcorazado()
 {
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube'"));
 	mallaNaveEnemiga->SetStaticMesh(ShipMesh.Object);
-
+    nombre = "Nave de Acorazado";
 }
+
 
 void ANaveEnemigaAcorazado::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	Mover(DeltaTime);
+    
 }
 
 
 void ANaveEnemigaAcorazado::Mover(float DeltaTime)
 {
-	velocidad = 1;
-	SetActorLocation(FVector(GetActorLocation().X - velocidad, GetActorLocation().Y, GetActorLocation().Z));
+	velocidad = -250;
+    ubicacionActual = GetActorLocation();
+    float NuevaX =velocidad*DeltaTime+ubicacionActual.X;
+    //float NuevaY = velocidad * DeltaTime + ubicacionActual.Y;
+    FVector NuevaPosicion = FVector(NuevaX,ubicacionActual.Y, ubicacionActual.Z);
+    SetActorLocation(NuevaPosicion);
+   /* if (ubicacionActual.X>LimiteSuperior) {
+        SetActorLocation(FVector(0.0f, ubicacionActual.Y, ubicacionActual.Z));
 
+
+    }
+    if (ubicacionActual.X < Limiteinferior) {
+		SetActorLocation(FVector(0.0f, ubicacionActual.Y, ubicacionActual.Z));
+	}*/
+    
+
+   
+    
 
 
 }

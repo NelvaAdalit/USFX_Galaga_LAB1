@@ -24,14 +24,14 @@ class AUSFX_Galaga_LAB1Pawn : public APawn
 	class USpringArmComponent* CameraBoom;
 
 
-public:
+/*public:
 
 	FVector posicionNave = GetActorLocation();
 
 public:
 	FORCEINLINE FVector GetPosicionNave() const { return posicionNave; }
 
-
+*/
 	
 
 public:

@@ -4,7 +4,10 @@
 #include "NaveEnemigaTransporte.h"
 
 ANaveEnemigaTransporte::ANaveEnemigaTransporte()
+
 {
+	nombre="Nave de Transporte";
+	velocidad = -250;
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule'"));
 	mallaNaveEnemiga->SetStaticMesh(ShipMesh.Object);
 
@@ -17,9 +20,14 @@ void ANaveEnemigaTransporte::Tick(float DeltaTime)
 
 void ANaveEnemigaTransporte::Mover(float DeltaTime)
 {
-	velocidad = -3;
-	SetActorLocation(FVector(GetActorLocation().X + velocidad, GetActorLocation().Y, GetActorLocation().Z));
-
+	//velocidad = -250;
+	ubicacionActual = GetActorLocation();
+	float NuevaX = velocidad * DeltaTime + ubicacionActual.X;
+	FVector NuevaPosicion = FVector(NuevaX, ubicacionActual.Y, ubicacionActual.Z);
+	SetActorLocation(NuevaPosicion);
+	float NuvevaY= velocidad * DeltaTime + ubicacionActual.Y;
+	FVector NuevaPosicionY = FVector(ubicacionActual.X, NuvevaY, ubicacionActual.Z);
+	SetActorLocation(NuevaPosicionY);
 
 }
 

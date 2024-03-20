@@ -66,7 +66,7 @@ void AUSFX_Galaga_LAB1Pawn::SetupPlayerInputComponent(class UInputComponent* Pla
 void AUSFX_Galaga_LAB1Pawn::Tick(float DeltaSeconds)
 {
 	// Find movement direction
-	posicionNave = GetActorLocation();
+	//posicionNave = GetActorLocation();
 	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
 	const float RightValue = GetInputAxisValue(MoveRightBinding);
 
